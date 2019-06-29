@@ -254,70 +254,91 @@ input[type=submit]:hover {
     background-color: #666666;
 }
 
-
+/* media queries */
 @media screen and (max-width:980px) {
-    .mav
-}
-
-@media screen and (max-width:768px) {
-    #masthead {
-        max-height: 638px;
-        width: 100%;
-        height: 160px;
-    }
-
-}
-
-@media screen and (max-width:640px) {
-    #main-container {
-        width: 100%;
-        max-width: 580px;
-        margin: 0 auto;
-        clear: both;
-    }
-
-
     #logo {
-        float: initial;
-        display: block;
-        width: 100%;
-    }
-
-    #profile {
-        float: initial;
-        display: block;
-        width: 100%;
+        margin-left: 15px;
     }
 
     nav {
-        position: initial;
-        float: none;
-        top: initial;
-        display: block;
-        width: 100%;
-        text-align: center;
-        margin-top: 15px;
+        margin-right: 15px%;
     }
 
     .main-section {
-        width: 90%;
-        float: none;
+        width: 75%;
+        float: left;
         max-width: 640px;
         padding: 30px;
-        margin: 20px auto;
+        margin: 10px 15px;
     }
 
-    .footer {
-        width: 100%;
+    @media screen and (max-width:768px) {
+        #logo {
+            margin-left: 10px;
+        }
+
+        nav {
+            margin-right: 10px;
+        }
+
+        .main-section {
+            width: 90%;
+            float: none;
+            max-width: 640px;
+            padding: 30px;
+            margin: 10px auto;
+        }
     }
 
-    #container {
-        margin: 0;
-    }
+    @media screen and (max-width:640px) {
+        #main-container {
+            width: 100%;
+            max-width: 580px;
+            margin: 0 auto;
+            clear: both;
+        }
 
-    .project {
-        width: 100%;
-        display: block;
-        float: initial;
+        #logo {
+            float: initial;
+            display: block;
+            width: 100%;
+        }
+
+        #profile {
+            float: initial;
+            display: block;
+            width: 100%;
+        }
+
+        nav {
+            position: initial;
+            float: none;
+            top: initial;
+            display: block;
+            width: 100%;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .main-section {
+            width: 90%;
+            float: none;
+            max-width: 640px;
+            padding: 30px;
+            margin: 30px auto;
+        }
+
+        .footer {
+            width: 100%;
+        }
+
+        #container {
+            margin: 0;
+        }
+
+        .project {
+            width: 100%;
+            display: block;
+            float: initial;
+        }
     }
-}
